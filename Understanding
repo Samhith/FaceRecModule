@@ -1,0 +1,18 @@
+
+Objective of the Paper:
+
+Many say that Face Recognition is a solved problem. But the truth is the there is a large amount of gap which exists between the publicly available face recognition systems and the privately available face recognition technology. This work is directed towards reducing that accuracy gap.
+
+
+Any General Face Recognition Pipeline:
+
+Input --> Face Detection --> Preprocessing --> Low Dimensional Embedding --> Classification.
+
+
+Today’s top-performing face recognition techniques are based on convolutional neural net-
+works. Facebook’s DeepFace [TYRW14] and Google’s FaceNet [SKP15] systems yield the highest
+accuracy. However, these deep neural network-based techniques are trained with private datasets
+containing millions of social media images that are orders of magnitude larger than available
+datasets for research.
+
+
