@@ -1,0 +1,12 @@
+Open Face by hand:
+
+1. OpenCV-python : https://docs.opencv.org/trunk/d2/de6/tutorial_py_setup_in_ubuntu.html
+2. Dlib : https://gist.github.com/talegari/f835763b26c94a5790d5f2b298a64c33
+3. torch : http://torch.ch/docs/getting-started.html
+4. git clone : https://github.com/cmusatyalab/openface
+5. Docker file : https://github.com/cmusatyalab/openface/blob/master/Dockerfile
+6. sudo python setup.py install
+7. sudo apt install lua5.1
+8. rerun the line 32 from (5)
+9. rerun (6)
+10. Close and open terminal....!!!!
