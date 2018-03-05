@@ -10,3 +10,18 @@ Open Face by hand:
 8. rerun the line 32 from (5)
 9. rerun (6)
 10. Close and open terminal....!!!!
+
+
+Experiment:
+
+TRAIN FACE:
+1. ./util/align-dlib.py /home/eshwar/Desktop/OpenFace/training-images/ align outerEyesAndNose /home/eshwar/Desktop/OpenFace/aligned-images/ --size 96
+
+2. ./batch-represent/main.lua -outDir /home/eshwar/Desktop/OpenFace/generated-embeddings/ -data /home/eshwar/Desktop/OpenFace/aligned-images/
+
+3. ./demos/classifier.py train /home/eshwar/Desktop/OpenFace/generated-embeddings/
+
+TEST FACE:
+4. ./demos/classifier.py infer /home/eshwar/Desktop/OpenFace/generated-embeddings/classifier.pkl /home/eshwar/Desktop/OpenFace/testimages
+
+
