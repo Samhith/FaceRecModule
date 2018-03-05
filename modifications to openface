@@ -1,0 +1,10 @@
+(Multi threading)parallelize the aligned images code for different folders during pose-detection and alignment
+
+Try to use multiple cores/GPU's for it
+
+
+-------------------------------------
+
+Skip images which were already aligned and trimmed
+
+--------------------------------------
