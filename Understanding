@@ -16,3 +16,10 @@ containing millions of social media images that are orders of magnitude larger t
 datasets for research.
 
 
+AWS Cloud Instance Types:
+
+General Purpose - t : Used for software development
+Computer Optimized - c : High Performance (Batch Processing, engineering apps, analytics)
+Memory Optimized - r : Used for database based softwares
+Storage Optimized - i/d : Transactional Database, clustering, data warehousing
+GPU instances - g : Video encodings, GPU based processing
